@@ -1,112 +1,87 @@
+
 <!DOCTYPE html>
-<!-- Coding by Haruna Muhammad @ ZuriTeam-->
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <link <!---rel="stylesheet"--> href="style.css"
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Login and Registration Form in HTML & CSS | ZuriTask </title>
-   </head>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Complete Responsive Portfolio Website for Haruna Muhammad</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
 <body>
-
-  <form form action="">
-    
-     <div class="container">
-     <h1>Registration Page</h1>
-          <p class="text-1">Every new friend is a new adventure</p>
-          <p class="text-2">Let's get connected</p>
-          <p class="text-1">Complete miles of journey with one step</p>
-          <p class="text-2">Please fill in the form below to get started!</p>
-<hr>
-<label>First Name</label>
-       <imput type="text" placeholder="Enter your first name" name="fist name" id="first name" required/>
-
-
-
-
-
-  
-        </div>
-    
-
-  <!-- <div class="forms">
-        <div class="form-content">
-          <div class="login-form">
-            <div class="title">Login</div>
-          <form action="#">
-            <div class="input-boxes">
-              <div class="input-box">
-                <i class="fas fa-envelope"></i>
-                <input type="text" placeholder="Enter your email" required>
-              </div>
-              <div class="input-box">
-                <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Enter your password" required>
-              </div>
-              <div class="text"><a href="#">Forgot password?</a></div>
-              <div class="button input-box">
-                <input type="submit" value="Sumbit">
-              </div>
-              <div class="text sign-up-text">Don't have an account? <label for="flip">Register Now!</label></div>
-            </div>
-        </form>
+  <!-- HEADER -->
+  <header class="l-header">
+    <nav class="site-header">
+      <div class="nav-logo">
+        <a href="index.html">
+          <img src="assets/images/logo.png" alt="Mylogo" width="314" height="60">
+        </a>
       </div>
-        <div class="signup-form">
-          <div class="title">Register</div>
-        <form action="#">
-            <div class="input-boxes">
-              <div class="input-box">
-                <i class="fas fa-user"></i>
-                <input type="text" placeholder="Enter Your First Name" required>
-              </div>
+      
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+<button class="hamburger"><img src="assets/images/menu.png" alt="menu toggle icon"></button>
+        
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="services.html">Skills & Services</a></li>
+          <li><a href="portfolio.html">Projects Portfolio</a></li>
+          <li><a href="contact.html">Contact Page</a></li>
+        </ul>
+      </div>
 
-<div class="input-box">
-                <i class="fas fa-user"></i>
-                <input type="text" placeholder="Enter Your Last Name" required>
-              </div>
-
-<div class="input-box">
-                <i class="fas fa-user"></i>
-                <input type="number" placeholder="+234 Phone Number" required>
-              </div>
-              
-              <div class="input-box">
-                <i class="fas fa-envelope"></i>
-                <input type="text" placeholder="Enter your email" required>
-              </div>
-           
-< id="setB">
+    </nav><!-- .site-header -->
+  </header>
 
 
+  <main>
+    <!--===== HOME =====-->
 
+    <section class="banner">
+      <div class="banner--content">
+        <h3 class="name">Haruna Muhammad Haruna</h3>
+        <h1 class="designation">Freelance Programmer, Data Scientist and Digital Marketer</h1>
+        <p class="tagline">If you're writer or something else, change the title as per your profession.</p>
+      </div>
+    </section><!-- .banner -->
 
+    <section class="promo">
+      <div class="content">
+        <h2>We bring your <span class="bold">ideas</span> to life<span class="orange">.</span></h2>
+        <p>Great ideas, beautifully executed & commercially sound.</p>
+      </div>
+    </section><!-- promo -->
+    
+<section class="social">
+    <div class="home__social">
+      <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+      <a href="" class="home__social-icon"><i class='bx bxl-quora'></i></a>
 
-          
-<div class="input-box">
-                
-              </div>
-<div class="input-box">
-                <i class="fas fafafa-user"></i>
-                <input type="select" placeholder="Enter Your DOB" required>
-              </div>
-<div class="input-box">
-                <i class="fas fa-user"></i>
-                <input type="select" placeholder="Enter Your Favorite Color" required>
-              </div>
-              
-              <div class="input-box">
-                <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Enter a strong password" required>
-              </div>
-              <div class="button input-box">
-                <input type="submit" value="Sumbit">
-              </div>
-              <div class="text sign-up-text">Already have an account? <label for="flip">Login now</label></div>
-            </div>
-      </form>
+    <a href="" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+    <a href="" class="home__social-icon"><i class='bx bxl-facebook'></i></a>     
+      <a href="" class="home__social-icon"><i class='bx bxl-github'></i></a>
     </div>
+    <div class="home__img">
+      <img src="img/profile.png" alt="HomeImage">
     </div>
-    </div>
-  </div>
+    </section><!-- social -->  
+  </main>
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
 </body>
+
 </html>
